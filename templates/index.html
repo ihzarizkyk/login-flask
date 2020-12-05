@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+<head>
+	<title>index - login flask</title>
+</head>
+<body>
+
+<form action="/" method="POST">
+	<label>
+		Username :
+	</label>
+	<input type="text" name="username" required>
+	<br><br>
+	<label>
+		Password :
+	</label>
+	<input type="password" name="password" required>
+	<br><br>
+	<button type="submit" name="login">
+		LOGIN
+	</button>
+</form>
+
+</body>
+</html>
